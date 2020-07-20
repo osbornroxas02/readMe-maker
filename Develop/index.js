@@ -1,9 +1,6 @@
-// const fs = require('fs');
-const { writeFile} = require('fs')
+const fs = require('fs')
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-
-
 
 // array of questions for user
 const questions = [
@@ -65,9 +62,11 @@ const questions = [
 // Function to write file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
+        // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
-            reject (err);
-            return
+            reject(err);
+            // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
+            return;    
         }
     });
 }
@@ -75,7 +74,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    promptUser(questions).then(answers => {
+    inquirer.prompt(questions).then(answers => {
 
         const response = generateMarkdown(answers);
         console.log(answers);
