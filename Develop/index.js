@@ -1,8 +1,9 @@
-const fs = require('fs');
+// const fs = require('fs');
+const { writeFile} = require('fs')
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-const promptUser = inquirer
+
 
 // array of questions for user
 const questions = [
@@ -65,7 +66,8 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) {
-            throw err;
+            reject (err);
+            return
         }
     });
 }
