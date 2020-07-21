@@ -17,21 +17,23 @@
 ---
 
 ## Description 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitaeLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. UltriciesLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies
 
-### Usage 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+#### Usage 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies
+
 
 [Back to the top](#table-of-contents)
+
 ---
 
 ## How To Use
 
 #### Installation
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies
 
 #### Contributing
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies
 
 
 [Back to the top](#table-of-contents)
@@ -44,7 +46,7 @@ MIT
 ---
 
 ## Author Info
-MYSELF
+Myself
 
 - [Github:](https://github.com/osbornroxas02/readMe-maker/tree/develop)
 - [Email:](https://README@MAKER.COM)

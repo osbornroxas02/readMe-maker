@@ -6,6 +6,7 @@ function generateMarkdown(data) {
   return `
   
 # **${data.Title}**
+
 ---
 
 ## Table of Contents 
@@ -23,10 +24,13 @@ function generateMarkdown(data) {
 ## Description 
 ${data.Description}
 
-### Usage 
-> ${data.Usage}
+#### Usage 
+${data.Usage}
+
+
 
 [Back to the top](#table-of-contents)
+
 ---
 
 ## How To Use
@@ -38,12 +42,14 @@ ${data.Description}
 > ${data.Contributing}
 
 
+
 [Back to the top](#table-of-contents)
 
 ---
 
 ## License
 ${data.License}
+
 
 ---
 
@@ -52,6 +58,7 @@ ${data.Authors}
 
 - [Github:](${data.Github})
 - [Email:](https://${data.Email})
+
 
 
 [Back to the top](#table-of-contents)
