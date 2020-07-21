@@ -4,14 +4,10 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = [
+
     {
         type: "input",
-        message: "Input badge code",
-        name: "Badges"
-    },
-    {
-        type: "input",
-        message: "What is the Title of your project?",
+        message: "Enter the project title",
         name: "Title"
     },
     {
@@ -21,13 +17,18 @@ const questions = [
     },
     {
         type: "input",
+        message: "Describe the usage",
+        name: "Usage"
+    },
+    {
+        type: "input",
         message: "What are the steps required to install your project?",
         name: "Installation"
     },
     {
         type: "input",
-        message: "Describe the usage.",
-        name: "Usage"
+        message: "What are the rules for contributing?",
+        name: "Contributing"
     },
     {
         type: "list",
@@ -43,18 +44,8 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the rules for contributing?",
-        name: "Contributing"
-    },
-    {
-        type: "input",
         message: "Who are the authors?",
         name: "Authors"
-    },
-    {
-        type: "input",
-        message: "How do you test your project?",
-        name: "Test"
     },
     {
         type: "input",
@@ -66,20 +57,21 @@ const questions = [
         message: "Enter your email",
         name: "Email"
     },
-    //testing 
-    {
-        type: 'confirm',
-        name: 'confirmTOC',
-        message: 'Would you like enter an item for a Table of Content section?',
-        default: true
-    },
-    {
-        type: 'input',
-        name: 'TOC',
-        message: 'Enter in your item.',
-        when: ({ confirmTOC }) => confirmTOC
-    }   
+    // add TOC later
+    // {
+    //     type: 'confirm',
+    //     name: 'confirmTOC',
+    //     message: 'Would you like enter an item for a Table of Content section?',
+    //     default: true
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'TOC',
+    //     message: 'Enter in your item.',
+    //     when: ({ confirmTOC }) => confirmTOC
+    // }, 
 ];
+
 
 // Function to write file
 function writeToFile(fileName, data) {
@@ -109,3 +101,13 @@ function init() {
 
 // function call to initialize program
 init();
+
+/* 
+fs.appendFileSync("README.md", ('## Table of Content' + '\n' + '_ ' + answers.TOC.split(", ").join('\n' + '_ ')) + '\n', function (err) { 
+    if (err) {
+        return console.log(err);
+    }
+    console.log('success!');
+    
+});
+*/
