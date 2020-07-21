@@ -6,12 +6,17 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: "input",
-        message: "What is your project title?",
+        message: "Input badge code",
+        name: "Badges"
+    },
+    {
+        type: "input",
+        message: "What is the Title of your project?",
         name: "Title"
     },
     {
         type: "input",
-        message: "Describe your project",
+        message: "Write a description of your project",
         name: "Description"
     },
     {
@@ -21,18 +26,8 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide instructions for use.",
+        message: "Describe the usage.",
         name: "Usage"
-    },
-    {
-        type: "input",
-        message: "Contributors?",
-        name: "Contributors"
-    },
-    {
-        type: "input",
-        message: "How do you test your project?",
-        name: "Test"
     },
     {
         type: "list",
@@ -48,15 +43,42 @@ const questions = [
     },
     {
         type: "input",
-        message: "Your Github username",
+        message: "What are the rules for contributing?",
+        name: "Contributing"
+    },
+    {
+        type: "input",
+        message: "Who are the authors?",
+        name: "Authors"
+    },
+    {
+        type: "input",
+        message: "How do you test your project?",
+        name: "Test"
+    },
+    {
+        type: "input",
+        message: "Enter your Github username",
         name: "Github"
     },
     {
         type: "input",
-        message: "What is your email?",
+        message: "Enter your email",
         name: "Email"
-    }
-
+    },
+    //testing 
+    {
+        type: 'confirm',
+        name: 'confirmTOC',
+        message: 'Would you like enter an item for a Table of Content section?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'TOC',
+        message: 'Enter in your item.',
+        when: ({ confirmTOC }) => confirmTOC
+    }   
 ];
 
 // Function to write file
@@ -66,7 +88,7 @@ function writeToFile(fileName, data) {
         if (err) {
             reject(err);
             // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
-            return;    
+            return;
         }
     });
 }

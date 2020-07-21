@@ -4,12 +4,14 @@ function generateMarkdown(data) {
   
 # ${data.Title}
 
-## Table of Contents
+ ## Table of Contents
+ * ${data.TOC}
 
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Credits](#Credits)
 * [License](#License)
+
 
 ## Description 
 ${data.Description}
@@ -20,14 +22,17 @@ ${data.Installation}
 ## Usage 
 ${data.Usage}
 
-## Credits
-${data.Credits}
-
 ## License
 ${data.License}
 
-## Contributors
-${data.Contributors}
+## Credits
+${data.Credits}
+
+## Contributing
+${data.Contributing}
+
+## Contributing
+${data.Authors}
 
 ## Test
 ${data.Test}
@@ -40,7 +45,6 @@ Email:[${data.Email}](https://github.com/osbornroxas02)
 }
 
 module.exports = generateMarkdown;
-
 
 
 
