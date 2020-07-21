@@ -1,6 +1,3 @@
-
-// Save for TOC : ${data.TOC}
-
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `
