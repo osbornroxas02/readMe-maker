@@ -4,26 +4,36 @@ function generateMarkdown(data) {
   
 # **${data.Title}**
 
+<<<<<<< HEAD
+=======
+${data.Badge}
+
+
+>>>>>>> develop
 ---
 
 ## Table of Contents 
 
 | [Description](#description) |
-| [Usage](#usage)|
 | [Installation](#installation) |
-| [Contributing](#contributing) |
-| [Test](#test) |
-| [License](#license) |
+| [Usage](#usage)|
+| [Credits](#credits) |
 | [Author Info](#author-info) |
+| [License](#license) |
+
+
 
 ---
 
 ## Description 
 ${data.Description}
 
+<<<<<<< HEAD
 #### Usage 
 ${data.Usage}
 
+=======
+>>>>>>> develop
 
 
 [Back to the top](#table-of-contents)
@@ -35,8 +45,8 @@ ${data.Usage}
 #### Installation
 > ${data.Installation}
 
-#### Contributing
-> ${data.Contributing}
+#### Usage 
+> ${data.Usage}
 
 
 
@@ -44,8 +54,11 @@ ${data.Usage}
 
 ---
 
-## License
-${data.License}
+
+## Credits
+
+${data.Credits}
+
 
 
 ---
@@ -62,7 +75,7 @@ ${data.Authors}
 
 ---
 
-MIT License
+${data.License} License
 
 Copyright (c) [2020] [Osborn]
 
