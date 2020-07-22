@@ -24,16 +24,13 @@
 ## Description 
 This README App was created to help developer bring some life into their README file. A component often over looked. First impressions are everything!  In a sea of code, creating an amazing looking README will not only serve to showcase what your application can do but also hep you to stand out from the crowd.
 
-![ReadMe Image](https://github.com/osbornroxas02/readMe-maker/blob/master/readmeImage.png)
+[![ReadMe Image](https://github.com/osbornroxas02/readMe-maker/blob/master/readmeImage.png)](https://drive.google.com/file/d/1fScjxV4DgIvHJ1y6pbdpJatMn4m2vtmu/preview)
 
 [Back to the top](#table-of-contents)
 
 ---
 
 ## How To Use
-
-<iframe src="https://drive.google.com/file/d/1fScjxV4DgIvHJ1y6pbdpJatMn4m2vtmu/preview" width="640" height="480"></iframe>
-
 
 #### Installation
 > This application runs locally. Download or clone this repository.
