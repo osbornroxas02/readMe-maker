@@ -4,12 +4,9 @@ function generateMarkdown(data) {
   
 # **${data.Title}**
 
-<<<<<<< HEAD
-=======
 ${data.Badge}
 
 
->>>>>>> develop
 ---
 
 ## Table of Contents 
@@ -28,12 +25,6 @@ ${data.Badge}
 ## Description 
 ${data.Description}
 
-<<<<<<< HEAD
-#### Usage 
-${data.Usage}
-
-=======
->>>>>>> develop
 
 
 [Back to the top](#table-of-contents)
