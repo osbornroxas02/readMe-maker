@@ -1,6 +1,8 @@
 
-  
 # **README MAKER**
+
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
 
 ---
 
@@ -14,40 +16,33 @@
 | [License](#license) |
 | [Author Info](#author-info) |
 
+
 ---
 
 ## Description 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitaeLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+This README App was created to help developer bring some life into their README file. A component often over looked. First impressions are everything!  In a sea of code, creating an amazing looking README will not only serve to showcase what your application can do but also hep you to stand out from the crowd.
 
-### Usage 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
 
-[Back to the top](#table-of-contents)
 ---
 
 ## How To Use
 
 #### Installation
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+> This application runs locally. Download or clone this repository.
 
-#### Contributing
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra diam sit amet nisl. Lacus luctus accumsan tortor posuere ac. Ultricies tristique nulla aliquet enim tortor. Nunc pulvinar sapien et ligula ullamcorper. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Odio facilisis mauris sit amet massa vitae
+#### Usage 
+> Once you have finished answering all the question prompts a README file will be generated and titled ‘ README.md ‘
 
 
 [Back to the top](#table-of-contents)
 
 ---
 
-## License
-MIT
-
----
-
 ## Author Info
-MYSELF
+Osborn Roxas
 
 - [Github:](https://github.com/osbornroxas02/readMe-maker/tree/develop)
-- [Email:](https://README@MAKER.COM)
+- [Email:](https://OSBORNROXAS02@GMAIL.COM)
 
 
 [Back to the top](#table-of-contents)
