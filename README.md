@@ -24,7 +24,7 @@
 ## Description 
 This README App was created to help developer bring some life into their README file. A component often over looked. First impressions are everything!  In a sea of code, creating an amazing looking README will not only serve to showcase what your application can do but also hep you to stand out from the crowd.
 
-
+![ReadMe Image](https://github.com/osbornroxas02/readMe-maker/blob/master/readmeImage.png)
 
 [Back to the top](#table-of-contents)
 
@@ -55,10 +55,11 @@ Jane Doe
 ## Author Info
 Enter in your GitHub and email so that other developers can’t contact you with questions about your application such as the example below.
 
-John Doe
+![ReadMe Image](https://github.com/osbornroxas02/readMe-maker/blob/master/seated%20copy.JPG)
+Osborn Roxas
 
 - [Github:](https://github.com/osbornroxas02/readMe-maker/tree/develop)
-- [Email:](https://README@MAKER.COM)
+- [Email:](https://OSBORNROXAS02@GMAIL.COM)
 
 
 [Back to the top](#table-of-contents)
