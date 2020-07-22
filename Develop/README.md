@@ -1,4 +1,5 @@
 
+  
 # **README MAKER**
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
@@ -9,12 +10,12 @@
 ## Table of Contents 
 
 | [Description](#description) |
-| [Usage](#usage)|
 | [Installation](#installation) |
-| [Contributing](#contributing) |
-| [Test](#test) |
-| [License](#license) |
+| [Usage](#usage)|
+| [Credits](#credits) |
 | [Author Info](#author-info) |
+| [License](#license) |
+
 
 
 ---
@@ -23,18 +24,31 @@
 This README App was created to help developer bring some life into their README file. A component often over looked. First impressions are everything!  In a sea of code, creating an amazing looking README will not only serve to showcase what your application can do but also hep you to stand out from the crowd.
 
 
+
+[Back to the top](#table-of-contents)
+
 ---
 
 ## How To Use
 
 #### Installation
-> This application runs locally. Download or clone this repository.
+> This application runs locally. Download or clone this repository. To use this application, first run an NPM install in your terminal. Then navigate into the root directory that contains the index.js and run the command ’n ode index ‘ and answer the questions prompts. If you have badge links have that ready as there will a section to enter those in.
 
 #### Usage 
 > Once you have finished answering all the question prompts a README file will be generated and titled ‘ README.md ‘
 
 
+
 [Back to the top](#table-of-contents)
+
+---
+
+
+## Credits
+
+Jane Doe
+
+
 
 ---
 
@@ -42,7 +56,8 @@ This README App was created to help developer bring some life into their README 
 Osborn Roxas
 
 - [Github:](https://github.com/osbornroxas02/readMe-maker/tree/develop)
-- [Email:](https://OSBORNROXAS02@GMAIL.COM)
+- [Email:](https://osbornroxas02@gmail.com)
+
 
 
 [Back to the top](#table-of-contents)
